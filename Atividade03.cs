@@ -1,6 +1,6 @@
 /*
 Código pronto, utilize para tirar dúvidas
-*/
+
 
 static void ExibirMenuConversao()
 {
@@ -63,4 +63,4 @@ static void ExecutarConversor()
     }
 }
 
-ExecutarConversor();
+ExecutarConversor(); */

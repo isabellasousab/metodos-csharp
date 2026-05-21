@@ -4,7 +4,8 @@ O sistema deve receber o nome do aluno e três notas. Ao final, deve exibir a m�
 informar se o aluno foi aprovado, ficou em recuperação ou foi reprovado.
 
 Código iniciado, o método LerNota ( ) é chamado, ele leva a string como mensagem 9Nota 1:; Nota 2: ...
-*/
+
+using System.Net.Http.Headers;
 
 static double LerNota(string mensagem)
 {
@@ -14,10 +15,45 @@ static double LerNota(string mensagem)
     return nota;
 }
 
+static string LerNomeAluno(string nome)
+{
+    Console.Write("Digite o nome do aluno: ");
+    nome = Console.ReadLine()!;
+    return nome;
+}
 
+static double CalcularMedia(double nota1, double nota2, double nota3)
+{
+    double media = ((nota1 + nota2 + nota3) / 3);
+    return media;
+}
+
+static string VerificarSituacao(double situação)
+{
+    if (situação >= 7)
+    {
+        return "Aluno(a) aprovado!";
+    }
+    else if (situação >= 5 && situação < 7)
+    {
+        return "Em recuperação";
+    }
+    else
+    {
+        return "Reprovado";
+    }
+}
+
+static void ExibirResultado(string nome, double media, string situacao)
+{
+    Console.WriteLine();
+    Console.WriteLine($"Aluno(a): {nome}");
+    Console.WriteLine($"Média final: {media}");
+    Console.WriteLine($"Situação: {situacao}");
+}
 static void ExecutarSistema()
 {
-    string nome = LerNomeAluno();
+    string nome = LerNomeAluno("nome");
 
     double nota1 = LerNota("Nota 1: ");
     double nota2 = LerNota("Nota 2: ");
@@ -30,4 +66,4 @@ static void ExecutarSistema()
     ExibirResultado(nome, media, situacao);
 }
 
-ExecutarSistema();
+ExecutarSistema();*/

@@ -5,7 +5,7 @@ Sugestão:
 - Crie uma função Menu(){  } , que quando executada chama a função Opção() { }
 na última linha do código chame a função Menu();
 
-*/
+
 
 
        
@@ -62,5 +62,5 @@ while (continuar == "s" || continuar == "S")
     continuar = Console.ReadLine()!;
 }
 
-Console.Write("Fim de programa!!");
+Console.Write("Fim de programa!!"); */
 

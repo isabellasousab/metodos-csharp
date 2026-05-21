@@ -1,23 +1,55 @@
-Console.Write("Digite o nome do cliente: ");
-string cliente = Console.ReadLine()!;
+// static void ExecutarSistema()
+// {
+//     string cliente = "";
+//     double valorCompra = 0;
+//     double desconto = 0;
+//     double valorFinal = 0;
+//     static string LerNomeCliente()
+//     {
+//         Console.Write("Digite o nome do cliente: ");
+//         string cliente = Console.ReadLine()!;
+//         return cliente;
+//     }
+//     cliente = LerNomeCliente();
+//     static double LerValorCompra()
+//     {
+//         Console.Write("Digite o valor da compra: ");
+//         double valorCompra = double.Parse(Console.ReadLine()!);
+//         return valorCompra;
 
-Console.Write("Digite o valor da compra: ");
-double valorCompra = double.Parse(Console.ReadLine()!);
+//     }
+//     valorCompra = LerValorCompra();
+//     static double CalcularDesconto(double valorCompra)
+//     {
+//         double desconto = 0;
 
-double desconto = 0;
+//         if (valorCompra >= 200)
+//         {
+//             desconto = valorCompra * 0.15;
+//             return desconto;
+//         }
+//         else
+//         {
+//             desconto = valorCompra * 0.05;
+//             return desconto;
+//         }
 
-if (valorCompra >= 200)
-{
-    desconto = valorCompra * 0.15;
-}
-else
-{
-    desconto = valorCompra * 0.05;
-}
+//     }
+//     desconto = CalcularDesconto(valorCompra);
+//     static double CalcularValorFinal(double valorCompra, double desconto)
+//     {
+//         double valorFinal = valorCompra - desconto;
+//         return valorFinal;
+//     }
+//     valorFinal = CalcularValorFinal(valorCompra, desconto);
 
-double valorFinal = valorCompra - desconto;
-
-Console.WriteLine($"Cliente: {cliente}");
-Console.WriteLine($"Valor da compra: R$ {valorCompra:F2}");
-Console.WriteLine($"Desconto: R$ {desconto:F2}");
-Console.WriteLine($"Valor final: R$ {valorFinal:F2}");
+//     static void ExibirResumo(string cliente, double valorCompra, double desconto, double valorFinal)
+//     {
+//         Console.WriteLine($"Cliente: {cliente}");
+//         Console.WriteLine($"Valor da compra: R$ {valorCompra:F2}");
+//         Console.WriteLine($"Desconto: R$ {desconto:F2}");
+//         Console.WriteLine($"Valor final: R$ {valorFinal:F2}");
+//     }
+//     ExibirResumo(cliente, valorCompra, desconto, valorFinal);
+// }
+// ExecutarSistema();
