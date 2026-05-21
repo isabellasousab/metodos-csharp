@@ -1,3 +1,8 @@
+/*# Atividade 04 — Refatoração de código sem métodos
+## Situação-problema
+O código abaixo funciona, mas está concentrando todas as responsabilidades em um único bloco. Sua tarefa é refatorar o programa utilizando métodos.
+*/
+
 // static void ExecutarSistema()
 // {
 //     string cliente = "";

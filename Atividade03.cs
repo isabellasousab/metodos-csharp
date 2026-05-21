@@ -1,8 +1,14 @@
 /*
-Código pronto, utilize para tirar dúvidas
+# Atividade 03 — Conversor de temperatura - RESPONDID
+## Situação-problema
+Uma empresa precisa de um programa para converter temperaturas entre Celsius e Fahrenheit.
+O usuário deve escolher o tipo de conversão e informar a temperatura.
+## Regras de negócio
+- Celsius para Fahrenheit: `(celsius * 9 / 5) + 32`
+- Fahrenheit para Celsius: `(fahrenheit - 32) * 5 / 9`
+- O sistema deve exibir o resultado da conversão.*/
 
-
-static void ExibirMenuConversao()
+/*static void ExibirMenuConversao()
 {
     Console.Clear();
     Console.WriteLine("=== CONVERSOR DE TEMPERATURA ===");

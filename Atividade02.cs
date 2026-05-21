@@ -1,8 +1,14 @@
 /*
-Um professor deseja criar um programa para ajudar alunos do ensino fundamental a 
-estudar tabuada. O sistema deve permitir que o usuário escolha um número e exibir 
-a tabuada de 1 até 10.
+# Atividade 02 — Sistema de tabuada personalizada
+## Situação-problema
+Um professor deseja criar um programa para ajudar alunos do ensino fundamental a estudar tabuada.
+O sistema deve permitir que o usuário escolha um número e exibir a tabuada de 1 até 10.
+## Regras de negócio
+- O usuário deve informar o número da tabuada.
+- O sistema deve exibir a multiplicação de 1 até 10.
+- Após exibir a tabuada, o programa deve perguntar se o usuário deseja consultar outra.
 */
+
 // static int LerNumeroTabuada()
 // {
 //     Console.Write("Digite um número para a tabuada");
